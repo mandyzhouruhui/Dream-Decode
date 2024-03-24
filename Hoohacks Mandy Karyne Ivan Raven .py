@@ -51,7 +51,7 @@ def analyze_dream():
     dream_description = request.json["dreamDescription"]
     sentiment_result = analyze_sentiment(dream_description)
 
-    my_api_key = "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"
+    my_api_key = "***"
     messages = [
         {
             "role": "system",
